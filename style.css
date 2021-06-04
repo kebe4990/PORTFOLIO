@@ -1,0 +1,143 @@
+body{
+
+    background-color: rgb(218, 207, 207);
+
+}
+
+nav{
+    
+    height: 350px;
+  }
+.nom{
+    color: brown;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.aProposDeMoi{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+}
+/* fin section à propos de moi */
+hr{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: brown solid;
+    margin-bottom: 0;
+}
+
+/* présentation */
+.presentation{
+    width: fit-content;
+    background-color: blue;
+    margin: 0 auto;
+}
+.titre{
+    white-space: pre-line;
+    word-wrap: normal;
+    text-align: center;
+    color: blanchedalmond;
+    }
+.menu{
+    width: 300px;
+    height: 100%;
+    /* background-color:  rgb(218, 207, 207); */
+    text-align: center;
+    margin-top: 0;
+    position: fixed;
+}
+/* image photo profil */
+.pp{
+    margin-top: 50px;
+    border-radius: 33%;
+    border-color: rgb(252, 253, 252);
+    border-style: solid;   
+}
+#navigation {
+    width: 300px;
+    break-after:always;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    
+  }
+/* fin présentation */
+
+/* mon texte */
+
+.texte{
+    
+}
+.montexte{
+
+    /* text-align: center; */
+    width: 500px;
+    margin: 0 auto;
+}
+#navigation li{
+margin: 20px 0;
+position: sticky;
+  }
+#navigation a {
+    color: rgb(0, 0, 0);
+}
+#navigation h3:hover{
+background: #347ddd;
+color: rgb(255, 255, 255);   
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    /* margin-left: 300px; */
+    /* margin-right: 0; */
+}
+
+
+.levre{
+    text-align: center;
+
+}
+
+.levre1{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: red solid;
+}
+.description{
+    text-align: center;
+}
+
+.soustitre{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.competences{
+    text-align: center;
+
+}
+
+.competence{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: red solid;
+}
+
+section{
+    margin-top:350px;
+    width:100%;
+  }
+  
+  section h3 a{
+     display: block; position: relative; top: -350px; visibility: hidden; 
+  }
